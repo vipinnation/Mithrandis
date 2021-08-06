@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+  .m-w-80 {
+    width: 80%;
+  }
+  .m-w-96 {
+    width: 96%;
+  }
+  .m-px-1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .m-px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .m-mt-1 {
+    margin-top: 1rem;
+  }
+
+  .optionButton:hover {
+    transform: scale(1);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .list {
+    flex-direction: column;
+    height: auto;
+  }
+  .items:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+  }
+  .items {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: center;
+    margin-right: 0px;
+    padding: 20px 0;
+  }
+}
